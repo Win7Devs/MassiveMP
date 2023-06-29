@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<title>MassiveMP</title>
+		<link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="">
+	</head>
+	
+	<body align="center">
+		<img id="myVideo" src="background.jpg">
+		<div class="content">
+			<img src="mmpbannerwh.png">
+			<p>Nightly290623</p>
+
+<script>
+var sound1 = new Audio("pharotek.mp3"); 
+function playAud() {
+sound1.load(); //For pre-loading media
+
+sound1.play(); //At any later time, as in button click handler
+}
+function pauseAud() {
+sound1.pause(); //At any later time, as in button click handler
+}
+</script>
+
+			<button id="myBtn3" onclick="playAud()"><img src="play.png" style="height: 16px; width: 16px;"></button>
+			<button id="myBtn3" onclick="pauseAud()"><img src="pause.png" style="height: 16px; width: 16px;"></button>
+			<p>
+			<button id="myBtn3" onclick="location.href=''">Account</button>
+			<button id="myBtn3" onclick="location.href=''">Credits</button>
+		</div>
+	</body>
+	
+</html>
